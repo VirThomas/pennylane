@@ -68,11 +68,11 @@ Here is the core of the search feature :
     )
 end
 ```
--```against:``` tells pg_search_scope which column or columns to search against.
--```tsearch:``` tsearch is the option for Full Text Searching - considers query as a set of words and similarity as the frequency of query words in the document. 
--```trigram:``` trigram search works by counting how many three-letter substrings (or "trigrams") match between the query and the text.
--```any_word:``` Setting this attribute to true will perform a search which will return all models containing any word in the search terms. (Absolutely mandatory in order to perform a query with multiple args and have results otherwise it will expect a perfect match with the query params)
--```threshold:``` set to lower numbers match more permissively, letting in more results.
+-```against:``` tells pg_search_scope which column or columns to search against.  
+-```tsearch:``` tsearch is the option for Full Text Searching - considers query as a set of words and similarity as the frequency of query words in the document.  
+-```trigram:``` trigram search works by counting how many three-letter substrings (or "trigrams") match between the query and the text.  
+-```any_word:``` Setting this attribute to true will perform a search which will return all models containing any word in the search terms. (Absolutely mandatory in order to perform a query with multiple args and have results otherwise it will expect a perfect match with the query params)  
+-```threshold:``` set to lower numbers match more permissively, letting in more results.  
 
 
 **YEAH**
