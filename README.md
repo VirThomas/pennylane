@@ -30,7 +30,7 @@ This assessment uses a number of open source projects to work properly:
 
 It's hosted here if you want to try it : https://pennylane-iyev.onrender.com/
 
-## Installation
+## Installation 🔨
 
 Install the dependencies and start the server (back AND front).
 
@@ -53,7 +53,7 @@ echo "REACT_APP_ENDPOINT_URL=http://localhost:3002/api/v1/search" >> .env
 npm start   
 ```
 
-## A deeper look
+## A deeper look 🔍
 Here is the core of the search feature :
  ```ruby
  class Recipe < ApplicationRecord
@@ -75,7 +75,7 @@ end
 ```threshold:``` set to lower numbers match more permissively, letting in more results.  
 
 
-**I hope you enjoyed reading this readme ! 🫡**
+**I hope you enjoyed reading this readme ! 🎉**
 
    [ReactJs]: <https://fr.react.dev>
    [PgSearch]: <https://github.com/Casecommons/pg_search>
