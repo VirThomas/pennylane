@@ -75,7 +75,7 @@ end
 ```threshold:``` set to lower numbers match more permissively, letting in more results.  
 
 
-**YEAH**
+**I hope you enjoyed reading this readme ! 🫡**
 
    [ReactJs]: <https://fr.react.dev>
    [PgSearch]: <https://github.com/Casecommons/pg_search>
@@ -84,10 +84,3 @@ end
    [MaterialUI]: <https://mui.com>
    [Render]: <https://render.com>
    
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
