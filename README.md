@@ -10,6 +10,7 @@ This assessment is seeded with recipes scrapped on marmiton.org (almost 10k of i
 It allows you to type in the search bar ingredients separated with a space and it will
 give you recipes that matches your ingredients 🥔🥒🥩🧑‍🍳
 
+<br>
 ## Features 🚀
 
 - Search for recipes matching your fridge's ingredients
