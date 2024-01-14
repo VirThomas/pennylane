@@ -47,7 +47,6 @@ export default function RecipeReviewCard({recipe}) {
           </IconButton>
         }
         title={recipe.name}
-        subheader="September 14, 2016"
       />
       <CardMedia
         component="img"

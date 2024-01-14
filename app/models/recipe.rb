@@ -4,7 +4,10 @@ class Recipe < ApplicationRecord
       :search,
       against: :ingredients_tsvector,
       using: {
-        tsearch: { any_word: true },
+        tsearch: {
+          any_word: true,
+          prefix: true
+       },
         trigram: { threshold: 0.1 }
       }
     )

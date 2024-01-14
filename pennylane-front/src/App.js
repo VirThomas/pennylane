@@ -21,7 +21,7 @@ function App() {
       axios.get(process.env.REACT_APP_ENDPOINT_URL, { params: { ingredients: searchTerm } })
         .then(response => {
           setResponseData(response.data);
-          setCurrentPage(1);
+          setCurrentPage(0);
         })
         .catch(error => {
           console.error('Error fetching data:', error);
