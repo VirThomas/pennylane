@@ -56,13 +56,16 @@ npm start
 ## A deeper look 🔍
 Here is the core of the search feature :
  ```ruby
- class Recipe < ApplicationRecord
+class Recipe < ApplicationRecord
     include PgSearch::Model
     pg_search_scope(
       :search,
       against: :ingredients_tsvector,
       using: {
-        tsearch: { any_word: true },
+        tsearch: {
+          any_word: true,
+          prefix: true
+       },
         trigram: { threshold: 0.1 }
       }
     )
@@ -73,6 +76,7 @@ end
 ```trigram:``` trigram search works by counting how many three-letter substrings (or "trigrams") match between the query and the text.  
 ```any_word:``` Setting this attribute to true will perform a search which will return all models containing any word in the search terms. (Absolutely mandatory in order to perform a query with multiple args and have results otherwise it will expect a perfect match with the query params)  
 ```threshold:``` set to lower numbers match more permissively, letting in more results.  
+```prefix:``` If you want to search for partial words, however, you can set :prefix to true. (Allows us to query singular and have plural but also gives more weight in ranking to recipes with two times the same ingredient)
 
 
 **I hope you enjoyed reading this readme ! 🎉**
