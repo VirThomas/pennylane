@@ -23,9 +23,9 @@ This assessment uses a number of open source projects to work properly:
 
 - [Ruby on Rails] - A web-app framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.  
 - [PgSearch] - PgSearch builds named scopes that take advantage of PostgreSQL's full text search.
-- [ReactJs] - HTML enhanced for web apps!
+- [ReactJs] - An open-source JavaScript library, crafted with precision by Facebook, that aims to simplify the intricate process of building interactive user interfaces.
 - [Postgresql] - PostgreSQL is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance.
-- [MaterialUI] -  an open-source React component library that implements Google's Material Design.
+- [MaterialUI] -  An open-source React component library that implements Google's Material Design.
 - [Render] - Cloud Application Hosting for Developers
 
 It's hosted here if you want to try it : https://pennylane-iyev.onrender.com/
