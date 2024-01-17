@@ -21,7 +21,7 @@ give you recipes that matches your ingredients 🥔🥒🥩🧑‍🍳
 
 This assessment uses a number of open source projects to work properly:
 
-- [Ruby on Rails] - Markdown parser done right. Fast and easy to extend.
+- [Ruby on Rails] - A web-app framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.  
 - [PgSearch] - PgSearch builds named scopes that take advantage of PostgreSQL's full text search.
 - [ReactJs] - HTML enhanced for web apps!
 - [Postgresql] - PostgreSQL is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance.
